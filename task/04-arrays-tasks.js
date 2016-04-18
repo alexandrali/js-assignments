@@ -604,6 +604,7 @@ function getElementByIndexes(arr, indexes) {
  */
 function swapHeadAndTail(arr) {
     throw new Error('Not implemented');
+    return arr.slice(arr.length/2+1, arr.length/2)+arr.slice(0, arr.length/2);
 }
 
 
