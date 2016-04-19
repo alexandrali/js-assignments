@@ -33,7 +33,7 @@
  *
  */
 function* get99BottlesOfBeer() {
-    //throw new Error('Not implemented');
+    throw new Error('Not implemented');
     for (let i=99; i>=0; i--)
     return `&{i} bottles of beer on the wall, &{i} bottles of beer.`;
 }
